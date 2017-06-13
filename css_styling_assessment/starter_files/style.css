@@ -1,0 +1,110 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+header {
+  background-color: #ff8523;
+  padding: 10px;
+}
+
+.main_navigation a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  color: #1fabe5;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  color: #1fabe5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #1fabe5;
+  color: white;
+  height: 30px;
+}
+
+thead tr {
+  height: 50px;
+  font-size: 24px;
+}
+
+table tr td{
+  border: 3px solid #3366ff;
+}
+
+img {
+  margin-right: -90px;
+}
+
+form {
+  background-color: lightgray;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.name {
+    color: white;
+    background-color: #ff8523;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.name input {
+  width: 30%;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.name label {
+  font-size: 24px;
+}
+
+.city_container {
+  margin-bottom: 30px;
+}
+
+.bio label {
+  margin-top: 15px;
+}
+
+textarea {
+  margin: 15px;
+  width: 95%;
+  border: 2px solid #1fabe5;
+}
+
+.submit_container {
+  padding: 15px;
+}
+
+.submit_container input {
+  background-color: #1fabe5;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+  padding: 5px;
+}
